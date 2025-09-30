@@ -105,7 +105,7 @@ RELEASE_TIME = 300    # 回位时间（毫秒）
 ## 支持
 
 如果您在使用过程中遇到问题：
-1. 查看 https://github.com/yourusername/esp32-smart-door-lock/issues 中是否已有解决方案
+1. 查看 [https://github.com/yourusername/esp32-smart-door-lock/issues](https://github.com/Ling5924/DoorLock/issues) 中是否已有解决方案
 2. 提交新的 Issue，描述详细的问题和环境信息
 3. 联系开发团队（如有提供联系方式）
 
