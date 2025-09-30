@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未连接"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接门锁"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/unlockButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开门"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/devicesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设备列表将显示在这里"
+        android:textSize="14sp"
+        android:maxLines="10"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

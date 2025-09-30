@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">智能门锁控制器</string>
+    <string name="status_disconnected">未连接</string>
+    <string name="status_connecting">正在连接…</string>
+    <string name="status_discovering_services">发现服务中…</string>
+    <string name="status_connected">已连接</string>
+    <string name="btn_connect">连接门锁</string>
+    <string name="btn_unlock">开门</string>
+    <string name="toast_unlock_sent">发送开锁命令</string>
+    <string name="toast_unlock_failed">发送失败</string>
+    <string name="toast_command_sent">命令发送成功</string>
+    <string name="toast_command_failed">命令发送失败</string>
+    <string name="error_bluetooth_not_supported">设备不支持蓝牙</string>
+    <string name="error_bluetooth_not_enabled">请先启用蓝牙</string>
+    <string name="error_device_not_found">未找到门锁设备</string>
+    <string name="error_service_not_found">服务未找到</string>
+    <string name="error_characteristic_not_found">特征未找到</string>
+    <string name="error_permission_required">需要权限才能操作</string>
+    <string name="error_permission_denied">权限错误，无法操作</string>
+    <string name="error_not_connected">未连接到设备</string>
+    <string name="toast_all_permissions_granted">所有必要权限已授予</string>
+    <string name="toast_some_permissions_denied">某些权限被拒绝，功能可能受限</string>
+</resources>
